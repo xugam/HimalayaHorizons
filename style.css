@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("bg1.jpg");
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    width: 1340px;
+    height: 1024px;
+    font-family: Inter;
+    color: #ffffff;
+}
+.titlebox{
+    width: 100%;
+    height: 50px;
+    background:rgba(0,0,0,0.2);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Inter ;
+    font-weight: bold;
+    font-size: 30px;
+}
+.box1{
+    margin-left: 40px ;
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Home{
+    transition: transform 0.5s;
+}
+.Gallery{
+    transition: transform 0.5s;
+}
+.Booking{
+    transition: transform 0.5s;
+}
+.Contact{
+    margin-right: 100px;
+    padding:10px;
+    transition: transform 0.5s;
+}
+.maintext{
+    margin-left: 20px;
+    font-family: Incosolata;
+    color: #ffffff;
+    font-size: 22px;
+}
+.titlebox .box1 .logo{
+    
+    width: 200px;
+    height: 60px;
+    left: 0px;
+}
+.dialog1{
+    width: 820px;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-family: Inter;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 90px;
+    transition: transform 1s;
+}
+.dialog2{
+    width: 330px;
+    margin-left: 500px;
+    font-family: Inder;
+    font-weight: bold;
+    color: #DAFB11;
+    font-size: 20px;
+    transition: transform 1s;
+}
+.MainBox{
+    margin-left: 60px;
+ 
+}
+.sagarmatha {
+cursor: pointer;
+display: inline-block;
+border-radius: 10px; 
+margin: 30px 20px;
+padding: 20px 20px;
+background-image: url(sagarmatha.jpg);
+background-position: center;
+background-size: cover;
+color: #ffffff;
+width: 320px;
+height: 150px;
+opacity: 0.5;
+transition: transform 0.5s;
+}
+.pashupatinath{
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background-image: url(pashupatinath.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+.lumbini {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background-image: url(lumbini.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+.chitwan {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background-image: url(sagarmatha.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+}
+.kathmandu {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background-image: url(kathmandu.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+  }
+  .bhaktapur {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px; 
+    margin: 30px 20px;
+    padding: 20px 20px;
+    background-image: url(bhaktapur.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    width: 320px;
+    height: 150px;
+    opacity: 0.5;
+    transition: transform 0.5s;
+  }
+h2 {
+color: #ffffff;
+font-size: 24px;
+margin-bottom: 10px;
+}
+h1{
+    margin-left: 20px;
+    margin-top:10px;
+}
+p {
+color: #ffffff;
+font-size: 16px;
+line-height: 1.5;
+}
+.copyright{
+    margin-top: 100px;
+}
+.sagarmatha:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.pashupatinath:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.lumbini:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.chitwan:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.kathmandu:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.bhaktapur:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+.Home:hover{
+    cursor: pointer;
+    color:aqua;
+    transform: scale(1.1);
+}
+.Gallery:hover{
+    cursor: pointer;
+    color:aqua;
+    transform: scale(1.1);
+}
+.Booking:hover{
+    cursor: pointer;
+    color:aqua;
+    transform: scale(1.1);
+}
+.Contact:hover{
+    cursor: pointer;
+    color:aqua;
+    transform: scale(1.1);
+}
+.dialog1:hover{
+    color: #DAFB11;
+    transform: rotateX(30deg);
+}
+.dialog2:hover{
+    color: #ffffff;
+    transform: translateY(20px);
+}
